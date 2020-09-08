@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/suthatta/static/css/main.d1b05096.chunk.css",
-    "main.js": "/suthatta/static/js/main.d8bb20ca.chunk.js",
-    "main.js.map": "/suthatta/static/js/main.d8bb20ca.chunk.js.map",
+    "main.js": "/suthatta/static/js/main.1e6f267c.chunk.js",
+    "main.js.map": "/suthatta/static/js/main.1e6f267c.chunk.js.map",
     "runtime-main.js": "/suthatta/static/js/runtime-main.af4ae5dd.js",
     "runtime-main.js.map": "/suthatta/static/js/runtime-main.af4ae5dd.js.map",
     "static/js/2.6fc7c564.chunk.js": "/suthatta/static/js/2.6fc7c564.chunk.js",
     "static/js/2.6fc7c564.chunk.js.map": "/suthatta/static/js/2.6fc7c564.chunk.js.map",
     "index.html": "/suthatta/index.html",
-    "precache-manifest.04e006cb98e8059b9ba4993f2e5a2d82.js": "/suthatta/precache-manifest.04e006cb98e8059b9ba4993f2e5a2d82.js",
+    "precache-manifest.92e15c6f3321a3f2fec276aaaca6a400.js": "/suthatta/precache-manifest.92e15c6f3321a3f2fec276aaaca6a400.js",
     "service-worker.js": "/suthatta/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/suthatta/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.6fc7c564.chunk.js.LICENSE.txt": "/suthatta/static/js/2.6fc7c564.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.af4ae5dd.js",
     "static/js/2.6fc7c564.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.d8bb20ca.chunk.js"
+    "static/js/main.1e6f267c.chunk.js"
   ]
 }
