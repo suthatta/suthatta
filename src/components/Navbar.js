@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import LogoImg from "../assets/logo.png";
+import LogoImg from "../assets/Suthatta.png";
 import {
     NavbarContainer,
     LeftContainer,
