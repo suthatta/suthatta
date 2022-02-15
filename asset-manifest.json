@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/suthatta/static/css/main.9f89652d.css",
+    "main.js": "/suthatta/static/js/main.38d85b5c.js",
+    "static/js/787.771a6ccd.chunk.js": "/suthatta/static/js/787.771a6ccd.chunk.js",
+    "static/media/suthatta.jpg": "/suthatta/static/media/suthatta.d4433a366bc001840ee8.jpg",
+    "index.html": "/suthatta/index.html",
+    "main.9f89652d.css.map": "/suthatta/static/css/main.9f89652d.css.map",
+    "main.38d85b5c.js.map": "/suthatta/static/js/main.38d85b5c.js.map",
+    "787.771a6ccd.chunk.js.map": "/suthatta/static/js/787.771a6ccd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f89652d.css",
+    "static/js/main.38d85b5c.js"
+  ]
+}
