@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import LogoImg from "../assets/Suthatta.png";
+import LogoImg from "../assets/logo.png";
 import {
     NavbarContainer,
     LeftContainer,
@@ -13,8 +13,9 @@ import {
     NavbarLinkExtended,
 } from "../styles/Navbar.style"
 
-function Navbar(){
+// import logo and add on Rightcontainer <Logo src={LogoImg}></Logo>
 
+function Navbar(){
 
     const [extendNavbar, setExtendNavbar] = useState(false);
 
@@ -23,9 +24,9 @@ function Navbar(){
           <LeftContainer>
             <NavbarLinkContainer>
               <NavbarLink to="/"> Home</NavbarLink>
-              <NavbarLink to="/products"> Products</NavbarLink>
-              <NavbarLink to="/contact"> Contact Us</NavbarLink>
-              <NavbarLink to="/about"> About Us</NavbarLink>
+              <NavbarLink to="/project"> Projects</NavbarLink>
+              <NavbarLink to="/contact"> Contact</NavbarLink>
+              <NavbarLink to="/about"> About</NavbarLink>
               <OpenLinksButton
                 onClick={() => {
                   setExtendNavbar((curr) => !curr);
@@ -36,7 +37,7 @@ function Navbar(){
             </NavbarLinkContainer>
           </LeftContainer>
           <RightContainer>
-            <Logo src={LogoImg}></Logo>
+          <Logo src={LogoImg}></Logo>
           </RightContainer>
         </NavbarInnerContainer>
         {extendNavbar && (
