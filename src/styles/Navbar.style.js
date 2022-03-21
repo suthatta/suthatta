@@ -82,3 +82,4 @@ export const NavbarExtendedContainer = styled.div`
     display: none;
   }
 `;
+

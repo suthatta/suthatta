@@ -1,5 +1,6 @@
 import React, {useState } from "react";
-import LogoImg from "../assets/suthatta.jpg";
+import LogoImg from "../assets/address.png";
+import Home from "./Home";
 import {
     NavbarContainer,
     LeftContainer,
@@ -16,6 +17,11 @@ import {
 // import logo and add on Rightcontainer <Logo src={LogoImg}></Logo>
 
 function Navbar(){
+  return(
+    <div>
+    <Home />
+    </div>
+  )
 
     const [extendNavbar, setExtendNavbar] = useState(false);
 
