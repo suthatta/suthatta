@@ -1,6 +1,5 @@
 import React, {useState } from "react";
 import LogoImg from "../assets/address.png";
-import Home from "./Home";
 import {
     NavbarContainer,
     LeftContainer,
@@ -17,11 +16,6 @@ import {
 // import logo and add on Rightcontainer <Logo src={LogoImg}></Logo>
 
 function Navbar(){
-  return(
-    <div>
-    <Home />
-    </div>
-  )
 
     const [extendNavbar, setExtendNavbar] = useState(false);
 
@@ -29,8 +23,8 @@ function Navbar(){
         <NavbarInnerContainer>
           <LeftContainer>
             <NavbarLinkContainer>
-              <NavbarLink to="/"> Home</NavbarLink>
-              <NavbarLink to="/project"> Projects</NavbarLink>
+              <NavbarLink to="/" >Home</NavbarLink>
+              <NavbarLink to="/projects"> Projects</NavbarLink>
               <NavbarLink to="/contact"> Contact</NavbarLink>
               <NavbarLink to="/about"> About</NavbarLink>
               <OpenLinksButton
@@ -49,7 +43,7 @@ function Navbar(){
         {extendNavbar && (
           <NavbarExtendedContainer>
             <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-            <NavbarLinkExtended to="/products"> Products</NavbarLinkExtended>
+            <NavbarLinkExtended to="/projects"> Projects</NavbarLinkExtended>
             <NavbarLinkExtended to="/contact"> Contact Us</NavbarLinkExtended>
             <NavbarLinkExtended to="/about"> About Us</NavbarLinkExtended>
           </NavbarExtendedContainer>
