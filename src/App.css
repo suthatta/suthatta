@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.projectsPage {
+  background-image: url("./assets/Banner3.png");
+}
+
+.homePage {
+  background-image: url("./assets/Banner1.png");
+}
